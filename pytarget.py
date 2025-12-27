@@ -11,7 +11,9 @@ args = parser.parse_args() #read user argument
 
 root = tk.Tk() #create window, (root=window)
 root.title("pytarget") #window title
-root.geometry("300x50") #window size
+root.geometry("300x30") #window size
+label = tk.Label(root, text=args.target, font=("Arial",15)) #target ip text
+label.pack() #add label in the window
 
 root.mainloop()
 
