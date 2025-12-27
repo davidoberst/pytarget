@@ -3,7 +3,7 @@ target overlay - keeps your target IP always visible in a small window.
 ![usage](output.png)
 
 # usage
-<pre>pytarget <target ip> </pre>
+<pre>python3 pytarget.py <TARGET_IP> </pre>
 
 # usage example
-<pre> pytarget 10.0.0.0 </pre>
+<pre> python3 pytarget.py 10.0.0.0 </pre>
